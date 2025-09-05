@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventura Informática - Soluções Completas em Tecnologia</title>
+    <meta name="description" content="A Ventura Informática oferece soluções completas em tecnologia para empresas e residências. Especialistas em infraestrutura, segurança e suporte técnico.">
+    <!-- Added SEO and social media meta tags -->
+    <meta name="keywords" content="tecnologia, TI, infraestrutura, segurança digital, suporte técnico, cloud computing, consultoria">
+    <meta name="author" content="Ventura Informática">
+    <meta property="og:title" content="Ventura Informática - Soluções Completas em Tecnologia">
+    <meta property="og:description" content="Especialistas em soluções tecnológicas para empresas e residências. Infraestrutura, segurança e suporte 24/7.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://venturainformatica.com.br">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://venturainformatica.com.br">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <!-- Added preload for critical resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Added skip navigation for accessibility -->
+    <a href="#main-content" class="skip-nav">Pular para o conteúdo principal</a>
+    
+    <!-- Header -->
+    <header class="header" id="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="./public/logo-ventura.png" alt="Ventura Informática" class="logo-img">
+                </div>
+                
+                <nav class="nav" id="nav" role="navigation" aria-label="Menu principal">
+                    <ul class="nav-list">
+                        <li><a href="#inicio" class="nav-link">Início</a></li>
+                        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                        <li><a href="#clientes" class="nav-link">Clientes</a></li>
+                        <li><a href="#produtos" class="nav-link">Produtos</a></li>
+                        <li><a href="empresa.html" class="nav-link">A Empresa</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Alternar entre tema claro e escuro">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section class="hero" id="inicio" aria-labelledby="hero-title">
+            <div class="hero-background">
+                <img src="modern-technology-office-with-computers-and-server.jpg" alt="Escritório moderno com tecnologia" class="hero-image">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title" id="hero-title">Soluções Completas em Tecnologia</h1>
+                    <p class="hero-subtitle">Transformamos sua infraestrutura tecnológica com soluções inovadoras e suporte especializado para empresas e residências.</p>
+                    <a href="#contato" class="btn btn-primary">Solicitar Orçamento</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="servicos" aria-labelledby="services-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" id="services-title">Nossos Serviços</h2>
+                    <p class="section-subtitle">Oferecemos soluções completas para todas as suas necessidades tecnológicas</p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                                <line x1="8" y1="21" x2="16" y2="21"/>
+                                <line x1="12" y1="17" x2="12" y2="21"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Informática</h3>
+                        <p class="service-description">Computadores, notebooks e equipamentos de informática</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">CFTV / Segurança</h3>
+                        <p class="service-description">Sistemas de monitoramento e segurança eletrônica</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Automação</h3>
+                        <p class="service-description">Soluções em automação residencial e comercial</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                <polyline points="3.27,6.96 12,12.01 20.73,6.96"/>
+                                <line x1="12" y1="22.08" x2="12" y2="12"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Eletrodomésticos e Eletroportáteis</h3>
+                        <p class="service-description">Linha completa de eletrodomésticos das melhores marcas.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Consultoria</h3>
+                        <p class="service-description">Consultoria especializada para otimizar seus processos e investimentos em tecnologia.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 0-8-3-8-8s3-8 8-8 8 3 8 8-3 8-8 8"/>
+                                <path d="M15 11h4a2 2 0 0 1 2 2v3.5a2 2 0 0 1-2 2H9"/>
+                                <path d="M9 7v4"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Telefonia</h3>
+                        <p class="service-description">Sistemas de telefonia e comunicação empresarial.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section class="clients" id="clientes" aria-labelledby="clients-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" id="clients-title">Nossos Clientes</h2>
+                    <p class="section-subtitle">Empresas que confiam em nossas soluções</p>
+                </div>
+                
+                <div class="clients-carousel" role="region" aria-label="Carrossel de clientes" aria-live="polite">
+                    <div class="clients-track" id="clients-track">
+                        <!-- Corrigindo caminhos das imagens dos clientes -->
+                        <div class="client-logo">
+                            <img src="./clientes/CESAN.PNG" alt="CESAN - Cliente Ventura Informática" loading="lazy">
+                        </div>
+                        <div class="client-logo">
+                            <img src="./clientes/eja.PNG" alt="EJA - Cliente Ventura Informática" loading="lazy">
+                        </div>
+                        <div class="client-logo">
+                            <img src="./clientes/galwan-company-logo.jpg" alt="Galwan Company - Cliente Ventura Informática" loading="lazy">
+                        </div>
+                        <div class="client-logo">
+                            <img src="./clientes/SANTA TEREZINHA.PNG" alt="Santa Terezinha - Cliente Ventura Informática" loading="lazy">
+                        </div>
+                        <div class="client-logo">
+                            <img src="./clientes/sebrae-business-logo.jpg" alt="SEBRAE - Cliente Ventura Informática" loading="lazy">
+                        </div>
+                        <div class="client-logo">
+                            <img src="./clientes/petrobras.PNG" alt="Petrobras - Cliente Ventura Informática" loading="lazy">
+                        </div>
+                        <div class="client-logo">
+                            <img src="./clientes/incaper-government-logo.jpg" alt="INCAPER - Cliente Ventura Informática" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News & Partners Section -->
+        <section class="news-partners">
+            <div class="container">
+                <div class="news-partners-grid">
+                    <div class="news-section">
+                        <h2 class="section-title">Últimas Notícias</h2>
+                        <div class="news-list">
+                            <article class="news-item">
+                                <h3 class="news-title">Nova Parceria Estratégica em Cloud Computing</h3>
+                                <p class="news-excerpt">Expandimos nosso portfólio de soluções em nuvem com nova parceria tecnológica...</p>
+                                <time class="news-date">15 de Janeiro, 2024</time>
+                            </article>
+                            <article class="news-item">
+                                <h3 class="news-title">Certificação em Segurança Cibernética</h3>
+                                <p class="news-excerpt">Nossa equipe obteve novas certificações em segurança digital...</p>
+                                <time class="news-date">08 de Janeiro, 2024</time>
+                            </article>
+                            <article class="news-item">
+                                <h3 class="news-title">Expansão dos Serviços de Suporte 24/7</h3>
+                                <p class="news-excerpt">Ampliamos nossa capacidade de atendimento para melhor servir nossos clientes...</p>
+                                <time class="news-date">02 de Janeiro, 2024</time>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="partners-section">
+                        <h2 class="section-title">Nossos Parceiros</h2>
+                        <div class="partners-grid">
+                            <div class="partner-logo">
+                                <img src="/public/microsoft-logo.png" alt="Microsoft">
+                            </div>
+                            <div class="partner-logo">
+                                <img src="/public/cisco-logo.png" alt="Cisco">
+                            </div>
+                            <div class="partner-logo">
+                                <img src="/public/dell-partner-logo.jpg" alt="Dell">
+                            </div>
+                            <div class="partner-logo">
+                                <img src="/public/hp-logo-abstract.png" alt="HP">
+                            </div>
+                            <div class="partner-logo">
+                                <img src="/public/lenovo-partner-logo.jpg" alt="Lenovo">
+                            </div>
+                            <div class="partner-logo">
+                                <img src="/public/ibm-partner-logo.jpg" alt="VMware">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products" id="produtos">
+            <div class="container">
+                <div class="products-content">
+                    <div class="products-image">
+                        <img src="/public/modern-technology-office-with-computers-and-server.jpg" alt="Sala de servidores moderna">
+                    </div>
+                    <div class="products-info">
+                        <h2 class="section-title">Soluções Empresariais</h2>
+                        <p class="products-description">
+                            Oferecemos uma linha completa de produtos e soluções tecnológicas para empresas de todos os portes, 
+                            desde pequenos negócios até grandes corporações.
+                        </p>
+                        
+                        <ul class="benefits-list">
+                            <li class="benefit-item">
+                                <span class="benefit-icon">✓</span>
+                                <span>Diversos Produtos</span>
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-icon">✓</span>
+                                <span>Sistemas de segurança e monitoramento</span>
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-icon">✓</span>
+                                <span>Suporte completo</span>
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-icon">✓</span>
+                                <span>Atendimento Rapido</span>
+                            </li>
+                            <li class="benefit-item">
+                                <span class="benefit-icon">✓</span>
+                                <span>Consultoria e implementação personalizada</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="#contato" class="btn btn-primary">Conhecer Produtos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contato" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" id="contact-title">Entre em Contato</h2>
+                    <p class="section-subtitle">Estamos prontos para atender suas necessidades tecnológicas</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <h3 class="contact-title">Telefone</h3>
+                        <p class="contact-info">(27) 3299-1464 / 3264-1344</p>
+                        <a href="tel:#" class="contact-link">Ligar Agora</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <h3 class="contact-title">E-mail</h3>
+                        <p class="contact-info">vendas3@venturainformatica.com.br</p>
+                        <a href="mailto:vendas3@venturainformatica.com.br" class="contact-link">Enviar E-mail</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <h3 class="contact-title">Endereço</h3>
+                        <p class="contact-info">Rua sete - 560 cocal<br>vila velha - ES</p>
+                        <a href="https://maps.app.goo.gl/oUJ8hBEKXXBZeRcc6" target="_blank" class="contact-link">Ver no Mapa</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/public/logo-ventura.png" alt="Ventura Informática" class="footer-logo-img">
+                </div>
+                <p class="footer-text">
+                    © 2025 Ventura Informática. Desenvolvido por Allan Simao. Todos os direitos reservados.<br>
+                    Soluções completas em tecnologia para empresas e residências.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Adicionando botão flutuante do WhatsApp -->
+    <div class="whatsapp-float" id="whatsapp-float">
+        <a href="https://wa.me/5527999999999?text=Olá! Gostaria de saber mais sobre os serviços da Ventura Informática." 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="whatsapp-btn"
+           aria-label="Falar no WhatsApp">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.506z"/>
+            </svg>
+            <span class="whatsapp-text">WhatsApp</span>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
